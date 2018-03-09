@@ -3,8 +3,8 @@ parent: 'test_cases/test_branch_origin_extended_conformance_install.yml'
 overrides:
   junit_analysis: True
   sync:
-    - "openshift,origin=master"
+    - "openshift,origin"
     - "openshift,aos-cd-jobs=master"
-    - "openshift,image-registry=master"
-    - "openshift,kubernetes-metrics-server=master"
-    - "openshift,origin-web-console-server=master"
+    - "openshift,image-registry"
+    - "openshift,kubernetes-metrics-server"
+    - "openshift,origin-web-console-server"
